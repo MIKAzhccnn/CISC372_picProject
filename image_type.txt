@@ -1,0 +1,5 @@
+edge
+sharpen
+blur
+gauss
+emboss
