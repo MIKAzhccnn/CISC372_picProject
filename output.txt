@@ -1,0 +1,31 @@
+Script started on Fri Oct 31 10:19:11 2025
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[?1034h[zhcnliu@r1n07 CISC372_picProject]$ i srun image_pthread pic1.jpb  pg edge
+Took 6 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun image_pthread pic1.jpg sharpen
+Took 7 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun image_pthread pic2.jap  pg blur
+Took 6 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun image_pthread pic3.jpg emboss
+Took 7 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun image_pthread pic4.h jpg gauss
+You have applied a gaussian filter to Gauss which has caused a tear in the time-space continum.
+Took 6 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun image_OpenMP pic1.jpg edge    emboss
+Took 7 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun image_OpenMP pic2.jpg sharpen
+Took 5 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun ia mage_OpenMP pic3.jpg blur
+Took 7 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun image_OpenMP pic4.jpg gauss
+You have applied a gaussian filter to Gauss which has caused a tear in the time-space continum.
+Took 6 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ srun image_OpenMP pic1.jpg edge
+Took 7 seconds
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ ls
+README.md  image.h	   image_OpenMP.exe  image_pthread.exe	output.png  pic2.jpg  stb_image.h
+image.c    image_OpenMP    image_pthread     image_type.txt	output.txt  pic3.jpg  stb_image_write.h
+image.exe  image_OpenMP.c  image_pthread.c   makefile		pic1.jpg    pic4.jpg
+]0;zhcnliu@r1n07.darwin:~/CISC372_picProject[zhcnliu@r1n07 CISC372_picProject]$ exit
+exit
+
+Script done on Fri Oct 31 10:23:50 2025
